@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="text">
+            Contacto
+        </div>
+        <form name="submit-to-google-sheet">
+            <div class="form-row">
+                <div class="input-data">
+                    <input name="name" type="text" placeholder="Nombre" required>
+                    <div class="underline"></div>
+                </div>
+                <div class="input-data">
+                    <input name="email" type="email" placeholder="Email" required>
+                    <div class="underline"></div>
+                    
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="input-data textarea">
+                    <textarea name="message" rows="8" cols="80" placeholder="Mensaje" required></textarea>
+                    <br />
+                    <div class="form-row submit-btn">
+                        <div class="input-data">
+                            <div class="inner"></div>
+                            <input type="submit">
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+        </form>
+    </div>
+    <script src="public/js/script.js"></script>
+</body>
+
+</html>
